@@ -26,7 +26,7 @@
   
   <test verbose="3" name="FeaturesTest"> 
     <classes>
-     <class name="tests.FeaturesPageTest"/>
+     <class name="tests.FeaturesTest"/>
     </classes>
   </test> 
   
