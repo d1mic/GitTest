@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test verbose="3" name="Negative_Search"> 
+    <classes>
+     <class name="tests.LoginTest"/>
+     <class name="tests.SearchTest">
+     <methods>
+        <include name="searchNegativeTest" />
+      </methods>
+     </class>
+    </classes>
+  </test>  
+ 
+  <test verbose="3" name="Positive_Search"> 
+    <classes>
+     <class name="tests.LoginTest"/>
+     <class name="tests.SearchTest">
+     <methods>
+        <include name="searchPositiveTest" />
+      </methods>
+     </class>
+    </classes>
+  </test> 
+  
+  <test verbose="3" name="FeaturesTest"> 
+    <classes>
+     <class name="tests.FeaturesPageTest"/>
+    </classes>
+  </test> 
+  
+</suite>
