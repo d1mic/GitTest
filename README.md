@@ -20,15 +20,6 @@ Tests for [GitHub site](https://github.com/)  using Selenium
 ```
 Priority:  Low  
 
-### Check Features Page
-``` bash
-1. Go to home page
-2. Click on features
-3. Check if every item in navigation bar displays correctly
-4. Click on every one of them.
-```
-Priority:  Low 
-
 ### Check Login Page
 ``` bash
 1. Go to home page
